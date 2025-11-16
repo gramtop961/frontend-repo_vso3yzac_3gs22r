@@ -4,10 +4,12 @@ import Features from './components/Features'
 import Process from './components/Process'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
+import BackgroundFX from './components/BackgroundFX'
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white relative">
+      <BackgroundFX />
       <Navbar />
       <main>
         <Hero />
